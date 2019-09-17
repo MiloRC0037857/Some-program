@@ -25,6 +25,16 @@ namespace Some_program
             richTextBox1.AppendText(c.ToString("0.000000000000000E0") + "\n");
             richTextBox1.AppendText(c.ToString("0.00E0") + "\n");
 
+            string s3 = "pi";
+            try
+            {
+                double d2 = double.Parse(s3);
+            }
+            catch
+            {
+                double d2 = 0;
+            }
+
         }
 
 
